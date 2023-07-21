@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    color: aliceblue;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 10px;
+    justify-content: space-between;
+    border: 1px solid aliceblue;
+}
+
+main .left-three-fourth .default{
+    display: flex;
+*/
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    overflow-x: hidden;
+}
+main .left-three-fourth{
+    display: flex;
+
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    float: left;
+    position: absolute;
+}
+main .left-three-fourth .default img{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 23rem;
+    width: 23rem;
+    transition: all 1s ease-in;
+}
+
+
+main .left-three-fourth .latest-release{
+   
+    width: 100%;
+    overflow-x: hidden;
+}
+main .left-three-fourth .popular-artist{
+  
+    width: 100%;
+    overflow-x: hidden;
+}
+main .left-three-fourth .latest-english{
+    
+    width: 100%;
+    overflow-x: hidden;
+}
+main .left-three-fourth .latest-hindi{
+   
+    width: 100%;
+    overflow-x: hidden;
+}
+main .right-one-fourth{
+    display: flex;
+    flex-direction: row;
+    width: 25%;
+  
+    flex-wrap: wrap;
+    float: right;
+    overflow:hidden;
+    position: relative;
+}
+
+main .right-one-fourth .sidebar{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+   
+}
+main .right-one-fourth .sidebar-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+
+}
